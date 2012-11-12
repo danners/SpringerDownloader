@@ -9,8 +9,8 @@ package springerdownloader;
  * @author Olli
  */
 public enum SupportedSite {
-    SPRINGER ("(http://)?(www.)?springerlink.com/content/.*?/contents(/)?"), 
-    DEGRUYTER ("(http://)?www.degruyter.com/view/product/\\d*");
+    DEGRUYTER ("(http://)?www.degruyter.com/view/product/\\d*"),
+    SPRINGER ("(http://)?(www.)?link.springer.com/book/10.1007/.*/page/1");
     
     private  final String urlPattern;
 
